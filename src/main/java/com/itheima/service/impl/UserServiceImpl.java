@@ -40,4 +40,14 @@ public class UserServiceImpl implements UserService {
         return userList;
     }
 
+    @Override
+    public void save(User user, Long[] roleIds) {
+
+    }
+
+    @Override
+    public void del(Long userId) {
+
+    }
+
 }

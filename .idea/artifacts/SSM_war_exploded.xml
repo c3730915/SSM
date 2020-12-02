@@ -1,17 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="SSM01:war exploded">
-    <output-path>$PROJECT_DIR$/target/SSM01</output-path>
-    <properties id="maven-jee-properties">
-      <options>
-        <exploded>true</exploded>
-        <module>SSM01</module>
-        <packaging>war</packaging>
-      </options>
-    </properties>
+  <artifact type="exploded-war" name="SSM:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSM_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="SSM01" />
+          <element id="module-output" name="SSM" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
@@ -44,10 +37,7 @@
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/SSM01/META-INF/MANIFEST.MF" />
-      </element>
-      <element id="javaee-facet-resources" facet="SSM01/web/Web" />
+      <element id="javaee-facet-resources" facet="SSM/web/Web" />
     </root>
   </artifact>
 </component>
