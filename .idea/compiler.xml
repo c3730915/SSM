@@ -10,5 +10,8 @@
         <module name="SSM" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Mybatis" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
