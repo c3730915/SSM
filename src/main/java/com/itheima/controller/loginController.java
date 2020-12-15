@@ -28,7 +28,7 @@ public class loginController {
         ModelAndView modelAndView = new ModelAndView();
         if(userList.size()==1)
         {
-            modelAndView.setViewName("login/fail");
+            modelAndView.setViewName("login/success");
             user=userList.get(0);
 
         }else if (userList.size()==0)
